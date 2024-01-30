@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.logo {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#Home {
+    background-color: #0162be;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    margin: 0 7rem;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a {
+    color: #fff;
+    padding: 15px;
+    border-bottom: transparent;
+    transition: 0.14;
+}
+
+.nav-list a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+#Home .contant {
+    display: flex;
+    height: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Home .contant .text-contant h1 {
+    font-size: 60px;
+
+}
+
+#Home .contant .text-contant h1 span {
+    font-size: 120px;
+}
+
+#Home .contant .text-contant p {
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    width: 50%;
+}
+
+.btn {
+    border: 3px solid #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #000;
+    background-color: #fff;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.contant img {
+    width: 220px;
+}
+
+.social {
+    margin-left: 3rem;
+
+}
+
+.social i {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.three-pepsi {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
